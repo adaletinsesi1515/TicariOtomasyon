@@ -22,7 +22,7 @@
             AddForeignKey("dbo.SatisHarekets", "Cari_CariID", "dbo.Caris", "CariID");
             AddForeignKey("dbo.SatisHarekets", "Personel_PersonelID", "dbo.Personels", "PersonelID");
             AddForeignKey("dbo.SatisHarekets", "Urun_UrunID", "dbo.Uruns", "UrunID");
-            DropColumn("dbo.Caris", "SatisHareket_SatisID");
+            DropColumn("dbo.Caris", "SatisHareket_SatisID"); 
             DropColumn("dbo.Personels", "SatisHareket_SatisID");
             DropColumn("dbo.Uruns", "SatisHareket_SatisID");
         }
