@@ -2570,6 +2570,9 @@
     <Content Include="Tema_File\Web\src\scss\_variables.scss" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Kategori\Index.cshtml" />
+    <Content Include="Views\Kategori\KategoriEkle.cshtml" />
+    <Content Include="Views\Kategori\KategoriGuncelle.cshtml" />
+    <Content Include="Views\Kategori\KategoriGetir.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
